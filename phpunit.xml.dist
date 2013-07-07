@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="src/bootstrap.php">
+    <testsuites>
+        <testsuite name="W3CAPI Tests">
+            <directory>./tests/W3CAPI/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

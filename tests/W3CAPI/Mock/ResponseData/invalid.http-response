@@ -1,0 +1,97 @@
+HTTP/1.1 200 OK
+Date: Sun, 07 Jul 2013 00:48:56 GMT
+Server: Apache/2.2.16 (Debian)
+X-W3C-Validator-Recursion: 1
+X-W3C-Validator-Status: Invalid
+X-W3C-Validator-Errors: 1
+X-W3C-Validator-Warnings: 3
+Content-Type: application/soap+xml; charset=UTF-8
+Connection: close
+Transfer-Encoding: chunked
+
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+<env:Body>
+<m:markupvalidationresponse env:encodingStyle="http://www.w3.org/2003/05/soap-encoding" xmlns:m="http://www.w3.org/2005/10/markup-validator">
+    
+    <m:uri>http://test.com/html5.php</m:uri>
+    <m:checkedby>http://validator.w3.org/</m:checkedby>
+    <m:doctype>HTML5</m:doctype>
+    <m:charset>utf-8</m:charset>
+    <m:validity>false</m:validity>
+    <m:errors>
+        <m:errorcount>1</m:errorcount>
+        <m:errorlist>
+          
+            <m:error>
+                <m:line>12</m:line>
+                <m:col>72</m:col>
+                <m:message>An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.</m:message>
+                <m:messageid>html5</m:messageid>
+                <m:explanation>  <![CDATA[
+                      <p class="helpwanted">
+      <a
+        href="feedback.html?uri=http%3A%2F%2Ftest.com%2Fhtml5.php;errmsg_id=html5#errormsg"
+	title="Suggest improvements on this error message through our feedback channels" 
+      >&#x2709;</a>
+    </p>
+
+                  ]]>
+                </m:explanation>
+                <m:source><![CDATA[        &#60;img src=&#34;http://test.com/img/test.png&#34;<strong title="Position where error was detected.">&#62;</strong>]]></m:source>
+            </m:error>
+           
+        </m:errorlist>
+    </m:errors>
+    <m:warnings>
+        <m:warningcount>3</m:warningcount>
+        <m:warninglist>
+        
+
+
+
+  <m:warning><m:messageid>W04</m:messageid><m:message>No Character Encoding Found!
+    
+      Using
+    
+    utf-8.
+  </m:message></m:warning>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <m:warning><m:messageid>W27</m:messageid><m:message>No Character encoding declared at document level</m:message></m:warning>
+
+
+
+
+
+
+
+        
+        </m:warninglist>
+    </m:warnings>
+</m:markupvalidationresponse>
+</env:Body>
+</env:Envelope>
